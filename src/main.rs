@@ -13,7 +13,7 @@ use r_i18n::I18n;
 
 unsafe fn strange() -> bool { let _x: bool = return true; }
 
-unsafe fn funny() {
+unsafe fn the_funny() {
     unsafe fn f(_x: ()) { }
     f(return);
 }
